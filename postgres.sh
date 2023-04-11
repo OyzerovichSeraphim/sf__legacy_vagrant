@@ -6,5 +6,4 @@ tar xf postgresql-8.4.0.tar.gz
 cd postgresql-8.4.0
 ./configure --without-readline --without-zlib
 make
-sudo su
-make install
+sudo make install
